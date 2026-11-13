@@ -46,7 +46,13 @@ jobs:
                 server: {
                   url: "https://ais-pre-mkscy2qmwolwkwxcv3zm75-460202069693.asia-east1.run.app",
                   cleartext: false,
-                  androidScheme: "https"
+                  androidScheme: "https",
+                  allowNavigation: [
+                    "ais-pre-mkscy2qmwolwkwxcv3zm75-460202069693.asia-east1.run.app",
+                    "aistudio.google.com",
+                    "*.google.com",
+                    "*.run.app"
+                  ]
                 },
                 android: {
                   allowMixedContent: false,
